@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>無料相談のお申込み</title>
+</head>
+<body>
+    <!-- Netlify Forms用の隠しフォーム -->
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-redirect="/contact/success" style="display: none;">
+        <input type="hidden" name="form-name" value="contact" />
+        <div>
+            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+        </div>
+        <div>
+            <label>姓（ファミリーネーム）: <input type="text" name="familyName" /></label>
+        </div>
+        <div>
+            <label>名（ファーストネーム）: <input type="text" name="firstName" /></label>
+        </div>
+        <div>
+            <label>メールアドレス: <input type="email" name="email" /></label>
+        </div>
+        <div>
+            <label>国籍: <input type="text" name="nationality" /></label>
+        </div>
+        <div>
+            <label>会社名・事業名: <input type="text" name="company" /></label>
+        </div>
+        <div>
+            <label>事業内容: <textarea name="businessContent"></textarea></label>
+        </div>
+        <div>
+            <button type="submit">送信</button>
+        </div>
+    </form>
+</body>
+</html>

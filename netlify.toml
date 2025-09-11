@@ -1,11 +1,6 @@
 [build]
-  command   = "npm run build"
-  publish   = ".next"           # Next.js プラグイン利用時
-  functions = "netlify/functions"
+  command = "npm run build"
+  publish = "out"
 
 [build.environment]
   NODE_VERSION = "18"
-
-# Netlify公式Next.jsプラグイン
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
