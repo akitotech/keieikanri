@@ -41,7 +41,6 @@ export default function ContactPage() {
               method="POST" 
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              data-netlify-redirect="/contact/success"
               className="grid gap-6"
             >
               {/* Netlify Forms用の隠しフィールド */}
