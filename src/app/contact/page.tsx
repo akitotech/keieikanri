@@ -39,6 +39,7 @@ export default function ContactPage() {
             <form 
               name="contact" 
               method="POST" 
+              action="/contact/success"
               className="grid gap-6"
             >
               
