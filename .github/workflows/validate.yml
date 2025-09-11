@@ -1,0 +1,96 @@
+name: Validate Build and Form
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Build project
+      run: npm run build
+    
+    - name: Check build output
+      run: |
+        echo "=== Build completed successfully! ==="
+        echo "Checking .next directory structure:"
+        ls -la .next/
+        echo ""
+        echo "Checking server directory:"
+        ls -la .next/server/ || echo "No server directory found"
+        echo ""
+        echo "Checking static files:"
+        find .next -name "*.html" | head -10
+        echo ""
+        echo "Checking form in contact page:"
+        if [ -f ".next/server/app/contact/page.js" ]; then
+          echo "Contact page found"
+          grep -o "data-netlify" .next/server/app/contact/page.js || echo "No data-netlify found"
+        else
+          echo "Contact page not found"
+        fi
+    
+    - name: Test form HTML generation
+      run: |
+        echo "=== Testing form HTML generation ==="
+        # Start the server in background
+        npm start &
+        SERVER_PID=$!
+        
+        # Wait for server to start
+        sleep 10
+        
+        # Test GET request to contact page
+        echo "Testing GET /contact:"
+        curl -s -o /tmp/contact.html http://localhost:3000/contact
+        if [ $? -eq 0 ]; then
+          echo "✅ GET /contact successful"
+          echo "Form HTML contains data-netlify:"
+          grep -o "data-netlify" /tmp/contact.html || echo "❌ No data-netlify found"
+          echo "Form HTML contains method POST:"
+          grep -o 'method="POST"' /tmp/contact.html || echo "❌ No method POST found"
+        else
+          echo "❌ GET /contact failed"
+        fi
+        
+        # Test POST request to contact page
+        echo "Testing POST /contact:"
+        curl -s -X POST -d "form-name=contact&familyName=テスト&firstName=太郎&email=test@example.com&nationality=日本&company=テスト会社&businessContent=テスト事業" http://localhost:3000/contact -o /tmp/contact_post.html
+        if [ $? -eq 0 ]; then
+          echo "✅ POST /contact successful"
+        else
+          echo "❌ POST /contact failed"
+        fi
+        
+        # Kill the server
+        kill $SERVER_PID 2>/dev/null || true
+    
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-output
+        path: .next/
+        retention-days: 1
+    
+    - name: Upload test results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-results
+        path: /tmp/contact*.html
+        retention-days: 1
