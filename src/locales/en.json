@@ -1,0 +1,162 @@
+{
+  "common": {
+    "companyName": "Kobe Regency Administrative Scrivener Office",
+    "tagline": "Business Management Visa 4 Months | Emergency Application Window",
+    "subtitle": "Nationwide Online Support (Japanese Only)",
+    "address": "Address: 4-1-23-312 Hamabe-dori, Chuo-ku, Kobe, Hyogo"
+  },
+  "header": {
+    "nav": {
+      "why": "Why Now",
+      "compare": "Changes",
+      "support": "Support",
+      "price": "Fees",
+      "faq": "FAQ",
+      "contact": "Free Consultation"
+    }
+  },
+  "hero": {
+    "title": "Business Management Visa will be {strong}strictly regulated from October{/strong}.\n{highlight}Capital of 5 million yen{/highlight} applications are only available {strong}now{/strong}.",
+    "subtitle": "Currently, you can apply for a {strong}4-month Business Management Visa{/strong} {strong}without office contract{/strong}. From October, {strong}capital of 30 million yen + full-time employees required{/strong}. Current requirements are more favorable now.",
+    "cta": "Schedule Free Consultation within 48 Hours",
+    "deadline": "※Consultation deadline: {strong}September 14 (Sun) 23:59 (JST){/strong}. {strong}Limited to 3 companies{/strong} only."
+  },
+  "alert": {
+    "message": "【URGENT】From October: Capital 30 million yen + employees required. {strong}Apply for consultation by 9/14 (Sun) 23:59{/strong} / {strong}Limited to 3 companies{/strong}, current requirements available now only!",
+    "countdown": "Deadline in"
+  },
+  "compare": {
+    "title": "What Changes (Current vs After Amendment)",
+    "current": {
+      "title": "Current (Apply Now Only)",
+      "capital": "Capital {strong}5 million yen or more{/strong}",
+      "employees": "Employee hiring {strong}not required{/strong} (can be substituted with capital)",
+      "visa": "{strong}4-month visa{/strong}: Can apply {strong}without office contract{/strong}",
+      "qualification": "Manager's degree/experience is an {strong}evaluation factor{/strong}"
+    },
+    "new": {
+      "title": "After Amendment (From October)",
+      "capital": "Capital {strong}30 million yen or more mandatory{/strong}",
+      "employees": "{strong}Full-time employees mandatory{/strong}",
+      "visa": "{strong}4-month visa still possible{/strong} (but requirements stricter)",
+      "qualification": "Manager: {strong}Degree{/strong} (PhD/Master/Professional) or {strong}3+ years management experience{/strong} {strong}mandatory{/strong}"
+    }
+  },
+  "why": {
+    "title": "Why \"Apply Now\" is Necessary",
+    "reasons": [
+      {
+        "title": "Significant Capital Requirement Increase",
+        "description": "Capital requirement increased {strong}6 times{/strong} (5 million → 30 million yen)."
+      },
+      {
+        "title": "Mandatory Full-time Employment",
+        "description": "After amendment, {strong}full-time employment of 1+ persons{/strong} is mandatory, significantly raising application barriers at startup preparation stage."
+      },
+      {
+        "title": "Added Degree or Management Experience Requirements",
+        "description": "Manager must have {strong}degree{/strong} (PhD/Master/Professional) or {strong}3+ years management experience{/strong}, potentially disqualifying many applicants."
+      },
+      {
+        "title": "Professional Involvement in Business Plan",
+        "description": "Business plan evaluation by {strong}Small and Medium Enterprise Management Consultants{/strong} required, leading to significant cost increases."
+      }
+    ]
+  },
+  "support": {
+    "title": "Our Office Support",
+    "services": [
+      {
+        "title": "Same-day Diagnosis",
+        "description": "Online consultation to thoroughly examine your situation. Same-day determination of current requirement eligibility, shortest route, and required documents."
+      },
+      {
+        "title": "Comprehensive Document and Plan Creation",
+        "description": "Capital payment certificates, resume/career history, 4-month business plan drafted and finalized through intensive short-term work."
+      },
+      {
+        "title": "Thorough Progress Management",
+        "description": "Through thorough progress management, we {strong}achieve September application{/strong}."
+      }
+    ],
+    "checklist": {
+      "title": "Checklist to Meet Current Requirements",
+      "items": [
+        "Secured {strong}5 million yen{/strong} capital payment funds",
+        "Can prepare {strong}fund certificates{/strong} such as bank payment/balance certificates",
+        "Can immediately provide manager's {strong}resume/career history{/strong}",
+        "Can articulate business ideas, market, and initial transaction prospects",
+        "Possess original identification documents (passport, etc.)",
+        "Available for {strong}online consultation (same-day, Japanese only){/strong}"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Fees",
+    "service": "Complete Application (4-month, current requirements only)",
+    "basePrice": "Base Fee",
+    "amount": "250,000 yen",
+    "tax": "+ consumption tax",
+    "total": "275,000 yen",
+    "includes": [
+      "Included: Requirement diagnosis, complete document creation, process management, submission proxy, correction support",
+      "Not included: Government fees, actual costs (balance certificates, registration matters, etc.), postage, translation fees",
+      "Payment timing: Initial payment at contract, remaining balance before submission (negotiable)",
+      "Fees may include difficulty surcharge. We provide estimates before contract"
+    ],
+    "note": "※Language support is Japanese only. Overseas residents should consider having a Japanese-speaking agent present."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "Is an office required for 4-month visa?",
+        "answer": "No. For provisional residence for business preparation, application is possible without office contract (current requirements)."
+      },
+      {
+        "question": "Is it possible to meet the deadline?",
+        "answer": "Possible if documents are ready. Please consult by {strong}9/14 (Sun) 23:59{/strong} (limited to 3 companies)."
+      },
+      {
+        "question": "What happens after 4 months?",
+        "answer": "We proceed with office contract and system preparation, leading to 1-year renewal. We accompany you from immediately after acquisition."
+      },
+      {
+        "question": "About language support",
+        "answer": "Zoom consultation is in Japanese. Overseas residents should consider having a Japanese-speaking agent present."
+      }
+    ],
+    "disclaimer": "※Laws and practices may change without notice. Please consult individually for latest information."
+  },
+  "cta": {
+    "title": "⚠️ Deadline {strong}September 14, 23:59{/strong}!",
+    "subtitle": "From October: {strong}Capital 30 million yen + employees mandatory{/strong}.\nThis is your last chance to apply with {strong}capital of 5 million yen{/strong}.",
+    "limited": "Accepting {strong}only 3 companies{/strong}. Missing this opportunity means significantly stricter requirements.",
+    "button": "Consult for September Application"
+  },
+  "contact": {
+    "title": "Free Consultation Application",
+    "subtitle": "If you wish to have a Zoom consultation in Japanese ({strong}limited to 3 companies{/strong}, {strong}deadline 9/14 (Sun){/strong}), please apply using the form below.",
+    "note": "※We will contact you within 24 hours after submission.",
+    "form": {
+      "familyName": "Family Name",
+      "firstName": "First Name",
+      "email": "Email Address",
+      "nationality": "Nationality",
+      "company": "Company/Business Name",
+      "businessContent": "Business Content",
+      "submit": "Apply for Free Consultation"
+    }
+  },
+  "schedule": {
+    "title": "Shortest Schedule (Estimate: 10 days)",
+    "steps": [
+      "Day 0-1: Requirement diagnosis, same-day hearing / Required document list",
+      "Day 2-4: Capital payment certificates, resume/career history draft",
+      "Day 3-6: 4-month business plan draft",
+      "Day 7-9: Application completion",
+      "Day 10: Submission"
+    ],
+    "note": "※Varies by individual situation. Our office manages processes in parallel."
+  }
+}

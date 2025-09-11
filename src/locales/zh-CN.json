@@ -1,0 +1,162 @@
+{
+  "common": {
+    "companyName": "神户丽晶行政书士事务所",
+    "tagline": "经营管理签证4个月｜紧急申请窗口",
+    "subtitle": "全国在线支持（仅日语）",
+    "address": "地址：兵库县神户市中央区滨边通4-1-23-312"
+  },
+  "header": {
+    "nav": {
+      "why": "为什么是现在",
+      "compare": "修改要点",
+      "support": "支持内容",
+      "price": "费用",
+      "faq": "常见问题",
+      "contact": "免费咨询"
+    }
+  },
+  "hero": {
+    "title": "经营管理签证{strong}10月起将严格化{/strong}。\n{highlight}资本金500万日元{/highlight}的申请只有{strong}现在{/strong}可以。",
+    "subtitle": "现在可以{strong}无需事务所合同{/strong}申请{strong}4个月经营管理签证{/strong}。10月以后将需要{strong}资本金3000万日元+员工（常勤）必须{/strong}。现行条件的申请现在更有利。",
+    "cta": "预约48小时内免费咨询",
+    "deadline": "※咨询申请期限：{strong}9月14日（周日）23:59（日本时间）{/strong}。{strong}仅限3家公司{/strong}。"
+  },
+  "alert": {
+    "message": "【紧急】10月以后需要资本金3000万日元+员工必须。{strong}9月14日（周日）23:59前申请咨询{/strong}／{strong}仅限3家公司{/strong}，现在只有现行条件可以申请！",
+    "countdown": "截止时间"
+  },
+  "compare": {
+    "title": "有什么变化（现行 vs 修改后）",
+    "current": {
+      "title": "现行（现在只能申请）",
+      "capital": "资本金{strong}500万日元以上{/strong}",
+      "employees": "员工雇佣{strong}不需要{/strong}（资本金等可替代）",
+      "visa": "{strong}4个月签证{/strong}：{strong}无需事务所合同{/strong}即可申请",
+      "qualification": "经营者的学位・经验是{strong}评价要素{/strong}"
+    },
+    "new": {
+      "title": "修改后（10月以后）",
+      "capital": "资本金{strong}3000万日元以上必须{/strong}",
+      "employees": "员工{strong}常勤1名以上必须{/strong}",
+      "visa": "{strong}4个月签证也可{/strong}（但条件严格化）",
+      "qualification": "经营者：{strong}学位{/strong}（博士/硕士/专业）或{strong}经营3年以上{/strong}为{strong}必须{/strong}"
+    }
+  },
+  "why": {
+    "title": "为什么需要「现在申请」",
+    "reasons": [
+      {
+        "title": "资本金条件大幅提高",
+        "description": "资本金将提高{strong}6倍{/strong}（500万→3000万）。"
+      },
+      {
+        "title": "常勤雇佣义务化",
+        "description": "修改后{strong}常勤雇佣1名以上{/strong}成为必须，创业准备阶段的申请门槛大幅提高。"
+      },
+      {
+        "title": "学位或经营经验条件追加",
+        "description": "经营者必须具有{strong}学位{/strong}（博士・硕士・专业）或{strong}经营3年以上{/strong}的经验，可能不再满足条件。"
+      },
+      {
+        "title": "事业计划需要专家参与",
+        "description": "需要{strong}中小企业诊断士等{/strong}对事业计划进行评价，预计成本大幅增加。"
+      }
+    ]
+  },
+  "support": {
+    "title": "本事务所的支持",
+    "services": [
+      {
+        "title": "当日诊断",
+        "description": "在线面谈详细审查情况。当日提示现行条件可否、最短路线、必要文件。"
+      },
+      {
+        "title": "文件・计划统一制作",
+        "description": "资本金支付证明、履历书・经历书、4个月用事业计划短期集中起草→完成。"
+      },
+      {
+        "title": "彻底的进度管理",
+        "description": "通过彻底的进度管理，{strong}实现9月申请{/strong}。"
+      }
+    ],
+    "checklist": {
+      "title": "满足现行条件的检查项目",
+      "items": [
+        "确保{strong}500万日元{/strong}的支付资金",
+        "可以准备银行支付・余额证明等{strong}资金证明{/strong}",
+        "可以立即提供经营者的{strong}履历书・职业经历{/strong}",
+        "可以语言化事业想法・市场・初期交易前景",
+        "持有本人确认文件（护照等）原件",
+        "可以进行{strong}在线面谈（当日，仅日语）{/strong}"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "费用",
+    "service": "申请一套（4个月・现在只有现行条件申请）",
+    "basePrice": "基本费用",
+    "amount": "250,000日元",
+    "tax": "+消费税",
+    "total": "275,000日元",
+    "includes": [
+      "包含：条件诊断、文件制作一套、工程管理、提交代理、补正对应",
+      "不包含：政府手续费、取得实费（余额证明・登记事项等）、邮寄费、翻译费",
+      "支付时期：签约时着手金、提交前余额清算（可商量）",
+      "费用有难度加算。签约前提供估算"
+    ],
+    "note": "※对应语言仅日语。海外居住者请考虑日语话者代理人同席。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "questions": [
+      {
+        "question": "4个月签证也需要事务所吗？",
+        "answer": "不需要。创业准备用暂定在留，无需事务所合同即可申请（现行条件）。"
+      },
+      {
+        "question": "截止时间很紧，来得及吗？",
+        "answer": "文件齐全的话可以。请在{strong}9月14日（周日）23:59{/strong}前咨询（仅限3家公司）。"
+      },
+      {
+        "question": "4个月后怎么办？",
+        "answer": "推进事务所合同和体制整备，连接1年更新。计划从取得后立即伴走。"
+      },
+      {
+        "question": "关于对应语言",
+        "answer": "日语Zoom面谈。海外居住者请考虑日语话者代理人同席。"
+      }
+    ],
+    "disclaimer": "※法令・运用可能无预告变更。最新情况请个别咨询。"
+  },
+  "cta": {
+    "title": "⚠️ {strong}9月14日23:59{/strong}截止！",
+    "subtitle": "10月以后{strong}资本金3000万日元+员工必须{/strong}。\n现在{strong}资本金500万日元{/strong}可以申请的最后机会。",
+    "limited": "仅接受{strong}3家公司{/strong}。错过这个机会条件将大幅严格化。",
+    "button": "咨询9月申请"
+  },
+  "contact": {
+    "title": "免费咨询申请",
+    "subtitle": "希望日语Zoom面谈（{strong}仅限3家公司{/strong}，{strong}9月14日（周日）截止{/strong}）的请通过下表申请。",
+    "note": "※提交后，负责人将在24小时内联系。",
+    "form": {
+      "familyName": "姓（姓氏）",
+      "firstName": "名（名字）",
+      "email": "邮箱地址",
+      "nationality": "国籍",
+      "company": "公司名・事业名",
+      "businessContent": "事业内容",
+      "submit": "申请免费咨询"
+    }
+  },
+  "schedule": {
+    "title": "最短日程（预计：10天）",
+    "steps": [
+      "Day 0-1: 条件诊断・当日听证／必要文件清单",
+      "Day 2-4: 资本金支付证明、履历书・经历书起草",
+      "Day 3-6: 4个月用事业计划起草",
+      "Day 7-9: 申请书完成",
+      "Day 10: 提交"
+    ],
+    "note": "※因个别情况前后变动。本事务所并行管理工程。"
+  }
+}

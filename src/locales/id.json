@@ -1,0 +1,162 @@
+{
+  "common": {
+    "companyName": "Kantor Notaris Administratif Kobe Regency",
+    "tagline": "Visa Manajemen Bisnis 4 Bulan｜Jendela Aplikasi Darurat",
+    "subtitle": "Dukungan Online Nasional (Hanya Bahasa Jepang)",
+    "address": "Alamat: 4-1-23-312 Hamabe-dori, Chuo-ku, Kobe, Hyogo"
+  },
+  "header": {
+    "nav": {
+      "why": "Mengapa Sekarang",
+      "compare": "Poin Perubahan",
+      "support": "Konten Dukungan",
+      "price": "Biaya",
+      "faq": "Pertanyaan yang Sering Diajukan",
+      "contact": "Konsultasi Gratis"
+    }
+  },
+  "hero": {
+    "title": "Visa Manajemen Bisnis akan {strong}diperketat mulai Oktober{/strong}.\n{highlight}Modal 500 juta yen{/highlight} hanya bisa diajukan {strong}sekarang{/strong}.",
+    "subtitle": "Saat ini dapat mengajukan {strong}Visa Manajemen Bisnis 4 bulan{/strong} {strong}tanpa kontrak kantor{/strong}. Mulai Oktober akan memerlukan {strong}modal 30 juta yen + karyawan (penuh waktu) wajib{/strong}. Aplikasi dengan persyaratan saat ini lebih menguntungkan sekarang.",
+    "cta": "Jadwalkan Konsultasi Gratis dalam 48 Jam",
+    "deadline": "※Batas waktu aplikasi konsultasi: {strong}14/9 (Minggu) 23:59 (Waktu Jepang){/strong}. {strong}Terbatas 3 perusahaan{/strong} saja."
+  },
+  "alert": {
+    "message": "【DARURAT】Mulai Oktober: Modal 30 juta yen + karyawan wajib. {strong}Ajukan konsultasi sebelum 14/9 (Min) 23:59{/strong}／{strong}Terbatas 3 perusahaan{/strong}，hanya bisa mengajukan dengan persyaratan saat ini sekarang！",
+    "countdown": "Batas waktu"
+  },
+  "compare": {
+    "title": "Apa yang Berubah (Saat ini vs Setelah Amandemen)",
+    "current": {
+      "title": "Saat ini (Hanya bisa mengajukan sekarang)",
+      "capital": "Modal {strong}500 juta yen atau lebih{/strong}",
+      "employees": "Rekrutmen karyawan {strong}tidak wajib{/strong} (dapat diganti dengan modal)",
+      "visa": "{strong}Visa 4 bulan{/strong}: Dapat mengajukan {strong}tanpa kontrak kantor{/strong}",
+      "qualification": "Gelar・pengalaman manajer adalah {strong}faktor evaluasi{/strong}"
+    },
+    "new": {
+      "title": "Setelah Amandemen (Mulai Oktober)",
+      "capital": "Modal {strong}30 juta yen atau lebih wajib{/strong}",
+      "employees": "Karyawan {strong}penuh waktu 1 orang atau lebih wajib{/strong}",
+      "visa": "{strong}Visa 4 bulan juga mungkin{/strong} (tetapi persyaratan diperketat)",
+      "qualification": "Manajer: {strong}Gelar{/strong} (Doktor/Magister/Profesional) atau {strong}pengalaman manajemen 3 tahun atau lebih{/strong} {strong}wajib{/strong}"
+    }
+  },
+  "why": {
+    "title": "Mengapa Perlu \"Aplikasi Sekarang\"",
+    "reasons": [
+      {
+        "title": "Persyaratan modal meningkat drastis",
+        "description": "Modal akan meningkat {strong}6 kali lipat{/strong} (500 juta→30 juta yen)."
+      },
+      {
+        "title": "Wajib rekrutmen penuh waktu",
+        "description": "Setelah amandemen {strong}rekrutmen penuh waktu 1 orang atau lebih{/strong} menjadi wajib，hambatan aplikasi pada tahap persiapan memulai bisnis akan meningkat drastis."
+      },
+      {
+        "title": "Menambahkan persyaratan gelar atau pengalaman manajemen",
+        "description": "Manajer harus memiliki {strong}gelar{/strong} (Doktor・Magister・Profesional) atau {strong}pengalaman manajemen 3 tahun atau lebih{/strong}，kemungkinan tidak lagi memenuhi persyaratan."
+      },
+      {
+        "title": "Perlu keterlibatan ahli dalam rencana bisnis",
+        "description": "Evaluasi rencana bisnis oleh {strong}Konsultan Manajemen Usaha Kecil dan Menengah{/strong} diperlukan，diperkirakan biaya akan meningkat drastis."
+      }
+    ]
+  },
+  "support": {
+    "title": "Dukungan Kantor Kami",
+    "services": [
+      {
+        "title": "Diagnosis hari yang sama",
+        "description": "Wawancara online memeriksa situasi secara detail. Hari yang sama menentukan kelayakan persyaratan saat ini，rute terpendek，dokumen yang diperlukan."
+      },
+      {
+        "title": "Pembuatan dokumen・rencana terpadu",
+        "description": "Sertifikat pembayaran modal，CV・riwayat pekerjaan，rencana bisnis 4 bulan disusun→diselesaikan dalam waktu singkat yang intensif."
+      },
+      {
+        "title": "Manajemen kemajuan yang menyeluruh",
+        "description": "Melalui manajemen kemajuan yang menyeluruh，{strong}mewujudkan aplikasi September{/strong}."
+      }
+    ],
+    "checklist": {
+      "title": "Daftar periksa untuk memenuhi persyaratan saat ini",
+      "items": [
+        "Memastikan {strong}500 juta yen{/strong} dana pembayaran modal",
+        "Dapat menyiapkan {strong}sertifikat modal{/strong} seperti sertifikat pembayaran bank・sertifikat saldo",
+        "Dapat segera menyediakan {strong}CV・riwayat pekerjaan{/strong} manajer",
+        "Dapat mengartikulasikan ide bisnis・pasar・prospek transaksi awal",
+        "Memiliki dokumen identitas asli (paspor dll)",
+        "Dapat melakukan {strong}wawancara online (hari yang sama，hanya bahasa Jepang){/strong}"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Biaya",
+    "service": "Satu set aplikasi (4 bulan・hanya aplikasi dengan persyaratan saat ini sekarang)",
+    "basePrice": "Biaya dasar",
+    "amount": "250,000 yen",
+    "tax": "+pajak konsumsi",
+    "total": "275,000 yen",
+    "includes": [
+      "Termasuk: Diagnosis persyaratan，pembuatan dokumen satu set，manajemen proses，perwakilan pengajuan，dukungan perbaikan",
+      "Tidak termasuk: Biaya pemerintah，biaya aktual (sertifikat saldo・masalah pendaftaran dll)，biaya pos，biaya terjemahan",
+      "Waktu pembayaran: Biaya dimulai saat kontrak，penyelesaian saldo sebelum pengajuan (dapat didiskusikan)",
+      "Biaya ada biaya tambahan kesulitan. Kami memberikan estimasi sebelum kontrak"
+    ],
+    "note": "※Dukungan bahasa hanya bahasa Jepang. Penduduk luar negeri sebaiknya mempertimbangkan kehadiran perwakilan yang berbahasa Jepang."
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "questions": [
+      {
+        "question": "Visa 4 bulan juga perlu kantor?",
+        "answer": "Tidak perlu. Untuk tinggal sementara persiapan memulai bisnis，dapat mengajukan tanpa kontrak kantor (persyaratan saat ini)."
+      },
+      {
+        "question": "Batas waktu sangat dekat tapi apakah bisa tepat waktu?",
+        "answer": "Jika dokumen lengkap bisa. Silakan konsultasi sebelum {strong}14/9 (Min) 23:59{/strong} (terbatas 3 perusahaan)."
+      },
+      {
+        "question": "Setelah 4 bulan bagaimana?",
+        "answer": "Melanjutkan kontrak kantor dan persiapan sistem，menghubungkan dengan perpanjangan 1 tahun. Rencana mendampingi segera setelah diperoleh."
+      },
+      {
+        "question": "Tentang dukungan bahasa",
+        "answer": "Wawancara Zoom dalam bahasa Jepang. Penduduk luar negeri sebaiknya mempertimbangkan kehadiran perwakilan yang berbahasa Jepang."
+      }
+    ],
+    "disclaimer": "※Hukum・praktik dapat berubah tanpa pemberitahuan. Silakan konsultasi individual untuk informasi terbaru."
+  },
+  "cta": {
+    "title": "⚠️ Batas waktu {strong}14 September, 23:59{/strong}!",
+    "subtitle": "Mulai Oktober: {strong}Modal 30 juta yen + karyawan wajib{/strong}.\nIni adalah kesempatan terakhir untuk mengajukan dengan {strong}modal 500 juta yen{/strong}.",
+    "limited": "Hanya menerima {strong}3 perusahaan{/strong}. Melewatkan kesempatan ini persyaratan akan diperketat drastis.",
+    "button": "Konsultasi aplikasi September"
+  },
+  "contact": {
+    "title": "Aplikasi Konsultasi Gratis",
+    "subtitle": "Jika ingin wawancara Zoom dalam bahasa Jepang ({strong}terbatas 3 perusahaan{/strong}，{strong}batas waktu 14/9 (Min){/strong})，silakan ajukan menggunakan formulir di bawah.",
+    "note": "※Setelah pengajuan，penanggung jawab akan menghubungi dalam 24 jam.",
+    "form": {
+      "familyName": "Nama keluarga (Nama marga)",
+      "firstName": "Nama depan (Nama pribadi)",
+      "email": "Alamat email",
+      "nationality": "Kewarganegaraan",
+      "company": "Nama perusahaan・nama bisnis",
+      "businessContent": "Konten bisnis",
+      "submit": "Ajukan konsultasi gratis"
+    }
+  },
+  "schedule": {
+    "title": "Jadwal terpendek (Perkiraan: 10 hari)",
+    "steps": [
+      "Hari 0-1: Diagnosis persyaratan・dengar pendapat hari yang sama／Daftar dokumen yang diperlukan",
+      "Hari 2-4: Sertifikat pembayaran modal，draf CV・riwayat pekerjaan",
+      "Hari 3-6: Draf rencana bisnis 4 bulan",
+      "Hari 7-9: Penyelesaian formulir aplikasi",
+      "Hari 10: Pengajuan"
+    ],
+    "note": "※Bervariasi sesuai situasi individual. Kantor kami mengelola proses secara paralel."
+  }
+}

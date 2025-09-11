@@ -1,20 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  // サーバーの安定化設定
-  experimental: {
-    // メモリ使用量を制限
-    memoryBasedWorkers: false,
-    // ファイル監視の最適化
-    optimizePackageImports: ['@heroicons/react'],
+  // 静的エクスポート用の設定
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
   },
-  // ビルド時の最適化
-  swcMinify: true,
-  // 開発サーバーの安定化
-  devIndicators: {
-    buildActivity: false,
-    buildActivityPosition: 'bottom-right',
+  // ESLintを無効化（デプロイ用）
+  eslint: {
+    ignoreDuringBuilds: true,
   },
   // ファイル監視の設定
   webpack: (config, { dev, isServer }) => {

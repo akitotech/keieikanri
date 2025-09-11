@@ -1,0 +1,162 @@
+{
+  "common": {
+    "companyName": "神戶麗晶行政書士事務所",
+    "tagline": "經營管理簽證4個月｜緊急申請窗口",
+    "subtitle": "全國線上支援（僅日語）",
+    "address": "地址：兵庫縣神戶市中央區濱邊通4-1-23-312"
+  },
+  "header": {
+    "nav": {
+      "why": "為什麼是現在",
+      "compare": "修正要點",
+      "support": "支援內容",
+      "price": "費用",
+      "faq": "常見問題",
+      "contact": "免費諮詢"
+    }
+  },
+  "hero": {
+    "title": "經營管理簽證{strong}10月起將嚴格化{/strong}。\n{highlight}資本金500萬日圓{/highlight}的申請只有{strong}現在{/strong}可以。",
+    "subtitle": "現在可以{strong}無需事務所合約{/strong}申請{strong}4個月經營管理簽證{/strong}。10月以後將需要{strong}資本金3000萬日圓+員工（常勤）必須{/strong}。現行條件的申請現在更有利。",
+    "cta": "預約48小時內免費諮詢",
+    "deadline": "※諮詢申請期限：{strong}9月14日（週日）23:59（日本時間）{/strong}。{strong}僅限3家公司{/strong}。"
+  },
+  "alert": {
+    "message": "【緊急】10月以後需要資本金3000萬日圓+員工必須。{strong}9月14日（週日）23:59前申請諮詢{/strong}／{strong}僅限3家公司{/strong}，現在只有現行條件可以申請！",
+    "countdown": "截止時間"
+  },
+  "compare": {
+    "title": "有什麼變化（現行 vs 修正後）",
+    "current": {
+      "title": "現行（現在只能申請）",
+      "capital": "資本金{strong}500萬日圓以上{/strong}",
+      "employees": "員工僱用{strong}不需要{/strong}（資本金等可替代）",
+      "visa": "{strong}4個月簽證{/strong}：{strong}無需事務所合約{/strong}即可申請",
+      "qualification": "經營者的學位・經驗是{strong}評價要素{/strong}"
+    },
+    "new": {
+      "title": "修正後（10月以後）",
+      "capital": "資本金{strong}3000萬日圓以上必須{/strong}",
+      "employees": "員工{strong}常勤1名以上必須{/strong}",
+      "visa": "{strong}4個月簽證也可{/strong}（但條件嚴格化）",
+      "qualification": "經營者：{strong}學位{/strong}（博士/碩士/專業）或{strong}經營3年以上{/strong}為{strong}必須{/strong}"
+    }
+  },
+  "why": {
+    "title": "為什麼需要「現在申請」",
+    "reasons": [
+      {
+        "title": "資本金條件大幅提高",
+        "description": "資本金將提高{strong}6倍{/strong}（500萬→3000萬）。"
+      },
+      {
+        "title": "常勤僱用義務化",
+        "description": "修正後{strong}常勤僱用1名以上{/strong}成為必須，創業準備階段的申請門檻大幅提高。"
+      },
+      {
+        "title": "學位或經營經驗條件追加",
+        "description": "經營者必須具有{strong}學位{/strong}（博士・碩士・專業）或{strong}經營3年以上{/strong}的經驗，可能不再滿足條件。"
+      },
+      {
+        "title": "事業計劃需要專家參與",
+        "description": "需要{strong}中小企業診斷士等{/strong}對事業計劃進行評價，預計成本大幅增加。"
+      }
+    ]
+  },
+  "support": {
+    "title": "本事務所的支持",
+    "services": [
+      {
+        "title": "當日診斷",
+        "description": "線上面談詳細審查情況。當日提示現行條件可否、最短路線、必要文件。"
+      },
+      {
+        "title": "文件・計劃統一製作",
+        "description": "資本金支付證明、履歷書・經歷書、4個月用事業計劃短期集中起草→完成。"
+      },
+      {
+        "title": "徹底的進度管理",
+        "description": "通過徹底的進度管理，{strong}實現9月申請{/strong}。"
+      }
+    ],
+    "checklist": {
+      "title": "滿足現行條件的檢查項目",
+      "items": [
+        "確保{strong}500萬日圓{/strong}的支付資金",
+        "可以準備銀行支付・餘額證明等{strong}資金證明{/strong}",
+        "可以立即提供經營者的{strong}履歷書・職業經歷{/strong}",
+        "可以語言化事業想法・市場・初期交易前景",
+        "持有本人確認文件（護照等）原件",
+        "可以進行{strong}線上面談（當日，僅日語）{/strong}"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "費用",
+    "service": "申請一套（4個月・現在只有現行條件申請）",
+    "basePrice": "基本費用",
+    "amount": "250,000日圓",
+    "tax": "+消費稅",
+    "total": "275,000日圓",
+    "includes": [
+      "包含：條件診斷、文件製作一套、工程管理、提交代理、補正對應",
+      "不包含：政府手續費、取得實費（餘額證明・登記事項等）、郵寄費、翻譯費",
+      "支付時期：簽約時著手金、提交前餘額清算（可商量）",
+      "費用有難度加算。簽約前提供估算"
+    ],
+    "note": "※對應語言僅日語。海外居住者請考慮日語話者代理人同席。"
+  },
+  "faq": {
+    "title": "常見問題",
+    "questions": [
+      {
+        "question": "4個月簽證也需要事務所嗎？",
+        "answer": "不需要。創業準備用暫定在留，無需事務所合約即可申請（現行條件）。"
+      },
+      {
+        "question": "截止時間很緊，來得及嗎？",
+        "answer": "文件齊全的話可以。請在{strong}9月14日（週日）23:59{/strong}前諮詢（僅限3家公司）。"
+      },
+      {
+        "question": "4個月後怎麼辦？",
+        "answer": "推進事務所合約和體制整備，連接1年更新。計劃從取得後立即伴走。"
+      },
+      {
+        "question": "關於對應語言",
+        "answer": "日語Zoom面談。海外居住者請考慮日語話者代理人同席。"
+      }
+    ],
+    "disclaimer": "※法令・運用可能無預告變更。最新情況請個別諮詢。"
+  },
+  "cta": {
+    "title": "⚠️ {strong}9月14日23:59{/strong}截止！",
+    "subtitle": "10月以後{strong}資本金3000萬日圓+員工必須{/strong}。\n現在{strong}資本金500萬日圓{/strong}可以申請的最後機會。",
+    "limited": "僅接受{strong}3家公司{/strong}。錯過這個機會條件將大幅嚴格化。",
+    "button": "諮詢9月申請"
+  },
+  "contact": {
+    "title": "免費諮詢申請",
+    "subtitle": "希望日語Zoom面談（{strong}僅限3家公司{/strong}，{strong}9月14日（週日）截止{/strong}）的請通過下表申請。",
+    "note": "※提交後，負責人將在24小時內聯繫。",
+    "form": {
+      "familyName": "姓（姓氏）",
+      "firstName": "名（名字）",
+      "email": "電子郵件地址",
+      "nationality": "國籍",
+      "company": "公司名・事業名",
+      "businessContent": "事業內容",
+      "submit": "申請免費諮詢"
+    }
+  },
+  "schedule": {
+    "title": "最短日程（預計：10天）",
+    "steps": [
+      "Day 0-1: 條件診斷・當日聽證／必要文件清單",
+      "Day 2-4: 資本金支付證明、履歷書・經歷書起草",
+      "Day 3-6: 4個月用事業計劃起草",
+      "Day 7-9: 申請書完成",
+      "Day 10: 提交"
+    ],
+    "note": "※因個別情況前後變動。本事務所並行管理工程。"
+  }
+}

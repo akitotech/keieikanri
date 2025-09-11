@@ -1,0 +1,162 @@
+{
+  "common": {
+    "companyName": "Văn phòng Luật sư Hành chính Kobe Regency",
+    "tagline": "Visa Quản lý Kinh doanh 4 tháng｜Cửa sổ Đăng ký Khẩn cấp",
+    "subtitle": "Hỗ trợ Trực tuyến Toàn quốc (Chỉ tiếng Nhật)",
+    "address": "Địa chỉ: 4-1-23-312 Hamabe-dori, Chuo-ku, Kobe, Hyogo"
+  },
+  "header": {
+    "nav": {
+      "why": "Tại sao bây giờ",
+      "compare": "Điểm sửa đổi",
+      "support": "Nội dung hỗ trợ",
+      "price": "Phí",
+      "faq": "Câu hỏi thường gặp",
+      "contact": "Tư vấn miễn phí"
+    }
+  },
+  "hero": {
+    "title": "Visa Quản lý Kinh doanh sẽ {strong}được siết chặt từ tháng 10{/strong}.\n{highlight}Vốn 500 triệu yên{/highlight} chỉ có thể đăng ký {strong}bây giờ{/strong}.",
+    "subtitle": "Hiện tại có thể đăng ký {strong}Visa Quản lý Kinh doanh 4 tháng{/strong} {strong}không cần hợp đồng văn phòng{/strong}. Từ tháng 10 sẽ cần {strong}vốn 30 triệu yên + nhân viên (toàn thời gian) bắt buộc{/strong}. Đăng ký theo yêu cầu hiện tại có lợi hơn.",
+    "cta": "Đặt lịch tư vấn miễn phí trong 48 giờ",
+    "deadline": "※Hạn đăng ký tư vấn: {strong}14/9 (Chủ nhật) 23:59 (Giờ Nhật Bản){/strong}. {strong}Chỉ giới hạn 3 công ty{/strong}."
+  },
+  "alert": {
+    "message": "【KHẨN CẤP】Từ tháng 10: Vốn 30 triệu yên + nhân viên bắt buộc. {strong}Đăng ký tư vấn trước 14/9 (CN) 23:59{/strong}／{strong}Chỉ giới hạn 3 công ty{/strong}，chỉ có thể đăng ký theo yêu cầu hiện tại bây giờ！",
+    "countdown": "Hạn cuối"
+  },
+  "compare": {
+    "title": "Điều gì thay đổi (Hiện tại vs Sau sửa đổi)",
+    "current": {
+      "title": "Hiện tại (Chỉ có thể đăng ký bây giờ)",
+      "capital": "Vốn {strong}500 triệu yên trở lên{/strong}",
+      "employees": "Tuyển dụng nhân viên {strong}không bắt buộc{/strong} (có thể thay thế bằng vốn)",
+      "visa": "{strong}Visa 4 tháng{/strong}: Có thể đăng ký {strong}không cần hợp đồng văn phòng{/strong}",
+      "qualification": "Bằng cấp・kinh nghiệm của người quản lý là {strong}yếu tố đánh giá{/strong}"
+    },
+    "new": {
+      "title": "Sau sửa đổi (Từ tháng 10)",
+      "capital": "Vốn {strong}30 triệu yên trở lên bắt buộc{/strong}",
+      "employees": "Nhân viên {strong}toàn thời gian 1 người trở lên bắt buộc{/strong}",
+      "visa": "{strong}Visa 4 tháng vẫn có thể{/strong} (nhưng yêu cầu nghiêm ngặt hơn)",
+      "qualification": "Người quản lý: {strong}Bằng cấp{/strong} (Tiến sĩ/Thạc sĩ/Chuyên nghiệp) hoặc {strong}kinh nghiệm quản lý 3 năm trở lên{/strong} {strong}bắt buộc{/strong}"
+    }
+  },
+  "why": {
+    "title": "Tại sao cần \"Đăng ký ngay bây giờ\"",
+    "reasons": [
+      {
+        "title": "Yêu cầu vốn tăng đáng kể",
+        "description": "Vốn sẽ tăng {strong}6 lần{/strong} (500 triệu→30 triệu yên)."
+      },
+      {
+        "title": "Bắt buộc tuyển dụng toàn thời gian",
+        "description": "Sau sửa đổi {strong}tuyển dụng toàn thời gian 1 người trở lên{/strong} bắt buộc，rào cản đăng ký ở giai đoạn chuẩn bị khởi nghiệp sẽ tăng đáng kể."
+      },
+      {
+        "title": "Thêm yêu cầu bằng cấp hoặc kinh nghiệm quản lý",
+        "description": "Người quản lý phải có {strong}bằng cấp{/strong} (Tiến sĩ・Thạc sĩ・Chuyên nghiệp) hoặc {strong}kinh nghiệm quản lý 3 năm trở lên{/strong}，có thể không còn đáp ứng yêu cầu."
+      },
+      {
+        "title": "Cần chuyên gia tham gia kế hoạch kinh doanh",
+        "description": "Cần đánh giá kế hoạch kinh doanh bởi {strong}Chuyên gia tư vấn quản lý doanh nghiệp vừa và nhỏ{/strong}，dự kiến chi phí tăng đáng kể."
+      }
+    ]
+  },
+  "support": {
+    "title": "Hỗ trợ của văn phòng chúng tôi",
+    "services": [
+      {
+        "title": "Chẩn đoán trong ngày",
+        "description": "Phỏng vấn trực tuyến kiểm tra tình hình chi tiết. Cùng ngày xác định khả năng đáp ứng yêu cầu hiện tại，lộ trình ngắn nhất，tài liệu cần thiết."
+      },
+      {
+        "title": "Tạo tài liệu・kế hoạch tổng hợp",
+        "description": "Chứng chỉ thanh toán vốn，sơ yếu lý lịch・lịch sử nghề nghiệp，kế hoạch kinh doanh 4 tháng được soạn thảo→hoàn thiện trong thời gian ngắn tập trung."
+      },
+      {
+        "title": "Quản lý tiến độ triệt để",
+        "description": "Thông qua quản lý tiến độ triệt để，{strong}thực hiện đăng ký tháng 9{/strong}."
+      }
+    ],
+    "checklist": {
+      "title": "Danh sách kiểm tra để đáp ứng yêu cầu hiện tại",
+      "items": [
+        "Đã đảm bảo {strong}500 triệu yên{/strong} vốn thanh toán",
+        "Có thể chuẩn bị {strong}chứng chỉ vốn{/strong} như chứng chỉ thanh toán・số dư ngân hàng",
+        "Có thể cung cấp ngay {strong}sơ yếu lý lịch・lịch sử nghề nghiệp{/strong} của người quản lý",
+        "Có thể diễn đạt ý tưởng kinh doanh・thị trường・triển vọng giao dịch ban đầu",
+        "Sở hữu tài liệu xác minh danh tính (hộ chiếu v.v.) bản gốc",
+        "Có thể {strong}phỏng vấn trực tuyến (cùng ngày，chỉ tiếng Nhật){/strong}"
+      ]
+    }
+  },
+  "pricing": {
+    "title": "Phí",
+    "service": "Bộ đăng ký (4 tháng・chỉ đăng ký theo yêu cầu hiện tại bây giờ)",
+    "basePrice": "Phí cơ bản",
+    "amount": "250,000 yên",
+    "tax": "+thuế tiêu dùng",
+    "total": "275,000 yên",
+    "includes": [
+      "Bao gồm: Chẩn đoán yêu cầu，tạo tài liệu bộ，quản lý quy trình，đại diện nộp，hỗ trợ sửa chữa",
+      "Không bao gồm: Lệ phí chính phủ，chi phí thực tế (chứng chỉ số dư・vấn đề đăng ký v.v.)，phí bưu điện，phí dịch thuật",
+      "Thời gian thanh toán: Phí bắt đầu khi ký hợp đồng，thanh toán số dư trước khi nộp (có thể thảo luận)",
+      "Phí có phụ thu độ khó. Chúng tôi cung cấp ước tính trước khi ký hợp đồng"
+    ],
+    "note": "※Hỗ trợ ngôn ngữ chỉ tiếng Nhật. Người cư trú ở nước ngoài nên cân nhắc có đại diện nói tiếng Nhật tham gia."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "questions": [
+      {
+        "question": "Visa 4 tháng có cần văn phòng không?",
+        "answer": "Không cần. Để cư trú tạm thời chuẩn bị khởi nghiệp，có thể đăng ký không cần hợp đồng văn phòng (yêu cầu hiện tại)."
+      },
+      {
+        "question": "Hạn cuối rất gần nhưng có kịp không?",
+        "answer": "Nếu tài liệu đầy đủ thì có thể. Vui lòng tư vấn trước {strong}14/9 (CN) 23:59{/strong} (chỉ giới hạn 3 công ty)."
+      },
+      {
+        "question": "Sau 4 tháng thì sao?",
+        "answer": "Tiến hành hợp đồng văn phòng và chuẩn bị hệ thống，kết nối với gia hạn 1 năm. Chúng tôi đồng hành ngay sau khi có được."
+      },
+      {
+        "question": "Về hỗ trợ ngôn ngữ",
+        "answer": "Phỏng vấn Zoom bằng tiếng Nhật. Người cư trú ở nước ngoài nên cân nhắc có đại diện nói tiếng Nhật tham gia."
+      }
+    ],
+    "disclaimer": "※Luật pháp・thực tiễn có thể thay đổi mà không báo trước. Vui lòng tư vấn riêng để biết thông tin mới nhất."
+  },
+  "cta": {
+    "title": "⚠️ Hạn cuối {strong}14 tháng 9, 23:59{/strong}!",
+    "subtitle": "Từ tháng 10: {strong}Vốn 30 triệu yên + nhân viên bắt buộc{/strong}.\nĐây là cơ hội cuối cùng để đăng ký với {strong}vốn 500 triệu yên{/strong}.",
+    "limited": "Chỉ nhận {strong}3 công ty{/strong}. Bỏ lỡ cơ hội này yêu cầu sẽ nghiêm ngặt hơn đáng kể.",
+    "button": "Tư vấn đăng ký tháng 9"
+  },
+  "contact": {
+    "title": "Đăng ký tư vấn miễn phí",
+    "subtitle": "Nếu muốn phỏng vấn Zoom bằng tiếng Nhật ({strong}chỉ giới hạn 3 công ty{/strong}，{strong}hạn 14/9 (CN){/strong})，vui lòng đăng ký bằng biểu mẫu dưới đây.",
+    "note": "※Sau khi gửi，người phụ trách sẽ liên hệ trong vòng 24 giờ.",
+    "form": {
+      "familyName": "Họ (Tên họ)",
+      "firstName": "Tên (Tên riêng)",
+      "email": "Địa chỉ email",
+      "nationality": "Quốc tịch",
+      "company": "Tên công ty・tên doanh nghiệp",
+      "businessContent": "Nội dung kinh doanh",
+      "submit": "Đăng ký tư vấn miễn phí"
+    }
+  },
+  "schedule": {
+    "title": "Lịch trình ngắn nhất (Ước tính: 10 ngày)",
+    "steps": [
+      "Ngày 0-1: Chẩn đoán yêu cầu・phỏng vấn cùng ngày／Danh sách tài liệu cần thiết",
+      "Ngày 2-4: Chứng chỉ thanh toán vốn，soạn thảo sơ yếu lý lịch・lịch sử nghề nghiệp",
+      "Ngày 3-6: Soạn thảo kế hoạch kinh doanh 4 tháng",
+      "Ngày 7-9: Hoàn thiện đơn đăng ký",
+      "Ngày 10: Nộp"
+    ],
+    "note": "※Thay đổi tùy theo tình hình cá nhân. Văn phòng chúng tôi quản lý quy trình song song."
+  }
+}

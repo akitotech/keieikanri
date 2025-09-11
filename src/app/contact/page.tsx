@@ -37,53 +37,19 @@ export default function ContactPage() {
           {/* Contact Form */}
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <form 
-              className="grid gap-6" 
-              onSubmit={async (e) => {
-                e.preventDefault();
-                const form = e.target as HTMLFormElement;
-                const formData = new FormData(form);
-                
-                // 送信ボタンを無効化
-                const submitButton = form.querySelector('button[type="submit"]') as HTMLButtonElement;
-                const originalText = submitButton.textContent;
-                submitButton.disabled = true;
-                submitButton.textContent = '送信中...';
-                
-                try {
-                  // APIに送信
-                  const response = await fetch('/api/send-email', {
-                    method: 'POST',
-                    headers: {
-                      'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                      familyName: formData.get('familyName'),
-                      firstName: formData.get('firstName'),
-                      email: formData.get('email'),
-                      nationality: formData.get('nationality'),
-                      company: formData.get('company'),
-                      businessContent: formData.get('businessContent'),
-                    }),
-                  });
-                  
-                  const result = await response.json();
-                  
-                  if (response.ok) {
-                    alert('お問い合わせありがとうございます。送信が完了しました。担当者より24時間以内にご連絡いたします。');
-                    form.reset(); // フォームをリセット
-                  } else {
-                    alert(`送信に失敗しました: ${result.error}`);
-                  }
-                } catch (error) {
-                  console.error('送信エラー:', error);
-                  alert('送信に失敗しました。しばらく時間をおいて再度お試しください。');
-                } finally {
-                  // 送信ボタンを元に戻す
-                  submitButton.disabled = false;
-                  submitButton.textContent = originalText;
-                }
-              }}
+              name="contact" 
+              method="POST" 
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              className="grid gap-6"
             >
+              {/* Netlify Forms用の隠しフィールド */}
+              <input type="hidden" name="form-name" value="contact" />
+              <div style={{ display: 'none' }}>
+                <label>
+                  Don't fill this out if you're human: <input name="bot-field" />
+                </label>
+              </div>
               {/* Family Name Field */}
               <div>
                 <label htmlFor="familyName" className="block text-sm font-medium text-slate-700 mb-2">
@@ -128,7 +94,6 @@ export default function ContactPage() {
                   className="w-full rounded-xl border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
                 />
               </div>
-
 
               {/* Nationality Field */}
               <div>
