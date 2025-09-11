@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Netlify用の設定（静的エクスポートを削除）
+  // 静的エクスポート用の設定
+  output: 'export',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
