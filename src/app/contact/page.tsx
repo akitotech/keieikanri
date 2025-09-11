@@ -40,17 +40,8 @@ export default function ContactPage() {
               name="contact" 
               method="POST" 
               data-netlify="true"
-              data-netlify-honeypot="bot-field"
-              data-netlify-redirect="/contact/success"
               className="grid gap-6"
             >
-              {/* Netlify Forms用の隠しフィールド */}
-              <input type="hidden" name="form-name" value="contact" />
-              <div style={{ display: 'none' }}>
-                <label>
-                  Don't fill this out if you're human: <input name="bot-field" />
-                </label>
-              </div>
               
               {/* Family Name Field */}
               <div>
