@@ -1,4 +1,4 @@
-'use client';
+import Link from 'next/link';
 
 export default function ContactPage() {
   return (
@@ -8,12 +8,12 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-xl font-bold text-slate-900">無料相談のお申込み</h1>
-            <a 
+            <Link 
               href="/" 
               className="text-blue-600 hover:text-blue-800 font-medium"
             >
               ← トップページに戻る
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -39,11 +39,19 @@ export default function ContactPage() {
             <form 
               name="contact" 
               method="POST" 
+              action="/contact"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               data-netlify-redirect="/contact/success"
               className="grid gap-6"
             >
+              {/* Netlify Forms用の隠しフィールド */}
+              <input type="hidden" name="form-name" value="contact" />
+              <div style={{ display: 'none' }}>
+                <label>
+                  Don't fill this out if you're human: <input name="bot-field" />
+                </label>
+              </div>
               
               {/* Family Name Field */}
               <div>
