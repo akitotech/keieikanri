@@ -1,40 +1,6 @@
 'use client';
 
 export default function ContactPage() {
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const form = e.target as HTMLFormElement;
-    const formData = new FormData(form);
-    
-    // 送信ボタンを無効化
-    const submitButton = form.querySelector('button[type="submit"]') as HTMLButtonElement;
-    const originalText = submitButton.textContent;
-    submitButton.disabled = true;
-    submitButton.textContent = '送信中...';
-    
-    try {
-      // Netlify Forms用の送信
-      const response = await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData as any).toString(),
-      });
-      
-      if (response.ok) {
-        // 成功ページにリダイレクト
-        window.location.href = '/contact/success';
-      } else {
-        alert('送信に失敗しました。しばらく時間をおいて再度お試しください。');
-      }
-    } catch (error) {
-      console.error('送信エラー:', error);
-      alert('送信に失敗しました。しばらく時間をおいて再度お試しください。');
-    } finally {
-      // 送信ボタンを元に戻す
-      submitButton.disabled = false;
-      submitButton.textContent = originalText;
-    }
-  };
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
       {/* Header */}
@@ -75,7 +41,7 @@ export default function ContactPage() {
               method="POST" 
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              onSubmit={handleSubmit}
+              data-netlify-redirect="/contact/success"
               className="grid gap-6"
             >
               {/* Netlify Forms用の隠しフィールド */}
