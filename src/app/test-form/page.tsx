@@ -1,36 +1,4 @@
-'use client';
-
 export default function TestFormPage() {
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    
-    const formData = new FormData(e.currentTarget);
-    
-    console.log('フォーム送信テスト開始');
-    console.log('フォームデータ:', Object.fromEntries(formData.entries()));
-    
-    try {
-      // Netlify Forms用の送信
-      const response = await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData as any).toString(),
-      });
-      
-      console.log('送信レスポンス:', response.status, response.statusText);
-      
-      if (response.ok) {
-        alert('フォーム送信成功！');
-        window.location.href = '/contact/success';
-      } else {
-        alert('フォーム送信失敗: ' + response.status);
-      }
-    } catch (error) {
-      console.error('送信エラー:', error);
-      alert('送信エラー: ' + error);
-    }
-  };
-
   return (
     <div className="min-h-screen bg-slate-50 p-8">
       <div className="max-w-2xl mx-auto">
@@ -42,7 +10,6 @@ export default function TestFormPage() {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           data-netlify-redirect="/contact/success"
-          onSubmit={handleSubmit}
           className="space-y-4"
         >
           {/* Netlify Forms用の隠しフィールド */}
@@ -96,6 +63,7 @@ export default function TestFormPage() {
           <p>1. ブラウザの開発者ツール（F12）を開く</p>
           <p>2. Consoleタブでログを確認</p>
           <p>3. Networkタブで送信状況を確認</p>
+          <p>4. フォーム送信後、Netlifyダッシュボードで確認</p>
         </div>
       </div>
     </div>
