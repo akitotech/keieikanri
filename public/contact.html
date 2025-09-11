@@ -3,160 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>無料相談のお申込み - 神戸リージェンシー行政書士事務所</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>無料相談のお申込み</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            color: #334155;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-container {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 24px;
+        }
+        label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: #374151;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #d1d5db;
+            border-radius: 12px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+        .required {
+            color: #ef4444;
+        }
+        button {
+            width: 100%;
+            padding: 16px 24px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1d4ed8;
+        }
+        .header {
+            background: white;
+            padding: 16px 0;
+            margin-bottom: 32px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .back-link {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            color: #1d4ed8;
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .title h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #1e293b;
+        }
+        .title p {
+            font-size: 1.125rem;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+        .title .note {
+            font-size: 0.875rem;
+            color: #94a3b8;
+        }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-800">
-    <div class="min-h-screen">
-        <!-- Header -->
-        <header class="bg-white shadow-sm">
-            <div class="container mx-auto px-4 py-4">
-                <div class="flex items-center justify-between">
-                    <h1 class="text-xl font-bold text-slate-900">無料相談のお申込み</h1>
-                    <a href="/" class="text-blue-600 hover:text-blue-800 font-medium">
-                        ← トップページに戻る
-                    </a>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>無料相談のお申込み</h1>
+            <a href="/" class="back-link">← トップページに戻る</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="title">
+            <h1>無料相談のお申込み</h1>
+            <p>日本語でのZoom面談（<strong>限定3社</strong>、<strong>9/14(日)締切</strong>）をご希望の方は下記フォームよりお申し込みください。</p>
+            <p class="note">※送信後、担当者より24時間以内にご連絡いたします。</p>
+        </div>
+
+        <div class="form-container">
+            <form 
+                name="contact" 
+                method="POST" 
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                data-netlify-redirect="/contact/success"
+            >
+                <!-- Netlify Forms用の隠しフィールド -->
+                <input type="hidden" name="form-name" value="contact" />
+                <div style="display: none;">
+                    <label>
+                        Don't fill this out if you're human: <input name="bot-field" />
+                    </label>
                 </div>
-            </div>
-        </header>
 
-        <!-- Main Content -->
-        <main class="container mx-auto px-4 py-16">
-            <div class="max-w-2xl mx-auto">
-                <!-- Title Section -->
-                <div class="text-center mb-8">
-                    <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-4">
-                        無料相談のお申込み
-                    </h2>
-                    <p class="text-lg text-slate-600 mb-2">
-                        日本語でのZoom面談（<strong>限定3社</strong>、<strong>9/14(日)締切</strong>）をご希望の方は下記フォームよりお申し込みください。
-                    </p>
-                    <p class="text-sm text-slate-500">
-                        ※送信後、担当者より24時間以内にご連絡いたします。
-                    </p>
+                <!-- 姓 -->
+                <div class="form-group">
+                    <label for="familyName">
+                        姓（ファミリーネーム） <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="familyName"
+                        name="familyName" 
+                        placeholder="山田" 
+                        required 
+                    />
                 </div>
 
-                <!-- Contact Form -->
-                <div class="bg-white rounded-2xl shadow-lg p-8">
-                    <form 
-                        name="contact" 
-                        method="POST" 
-                        data-netlify="true"
-                        data-netlify-honeypot="bot-field"
-                        data-netlify-redirect="/contact/success"
-                        class="grid gap-6"
-                    >
-                        <!-- Netlify Forms用の隠しフィールド -->
-                        <input type="hidden" name="form-name" value="contact" />
-                        <div style="display: none;">
-                            <label>
-                                Don't fill this out if you're human: <input name="bot-field" />
-                            </label>
-                        </div>
-
-                        <!-- Family Name Field -->
-                        <div>
-                            <label for="familyName" class="block text-sm font-medium text-slate-700 mb-2">
-                                姓（ファミリーネーム） <span class="text-red-500">*</span>
-                            </label>
-                            <input 
-                                type="text" 
-                                id="familyName"
-                                name="familyName" 
-                                placeholder="山田" 
-                                required 
-                                class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
-                            />
-                        </div>
-
-                        <!-- First Name Field -->
-                        <div>
-                            <label for="firstName" class="block text-sm font-medium text-slate-700 mb-2">
-                                名（ファーストネーム） <span class="text-red-500">*</span>
-                            </label>
-                            <input 
-                                type="text" 
-                                id="firstName"
-                                name="firstName" 
-                                placeholder="太郎" 
-                                required 
-                                class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
-                            />
-                        </div>
-
-                        <!-- Email Field -->
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-slate-700 mb-2">
-                                メールアドレス <span class="text-red-500">*</span>
-                            </label>
-                            <input 
-                                type="email" 
-                                id="email"
-                                name="email" 
-                                placeholder="yamada@example.com" 
-                                required 
-                                class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
-                            />
-                        </div>
-
-                        <!-- Nationality Field -->
-                        <div>
-                            <label for="nationality" class="block text-sm font-medium text-slate-700 mb-2">
-                                国籍 <span class="text-red-500">*</span>
-                            </label>
-                            <input 
-                                type="text" 
-                                id="nationality"
-                                name="nationality" 
-                                placeholder="例：日本、中国、韓国、アメリカなど" 
-                                required
-                                class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
-                            />
-                        </div>
-
-                        <!-- Company Field -->
-                        <div>
-                            <label for="company" class="block text-sm font-medium text-slate-700 mb-2">
-                                会社名・事業名 <span class="text-red-500">*</span>
-                            </label>
-                            <input 
-                                type="text" 
-                                id="company"
-                                name="company" 
-                                placeholder="株式会社サンプル" 
-                                required
-                                class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
-                            />
-                        </div>
-
-                        <!-- Business Content Field -->
-                        <div>
-                            <label for="businessContent" class="block text-sm font-medium text-slate-700 mb-2">
-                                事業内容 <span class="text-red-500">*</span>
-                            </label>
-                            <textarea 
-                                id="businessContent"
-                                name="businessContent" 
-                                rows="6" 
-                                placeholder="事業内容について詳しくお書きください。例：ITコンサルティング、貿易業、飲食店経営、不動産投資、教育事業など" 
-                                required 
-                                class="w-full rounded-xl border border-slate-300 px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-vertical" 
-                            ></textarea>
-                        </div>
-
-                        <!-- Submit Button -->
-                        <div class="pt-4">
-                            <button 
-                                type="submit" 
-                                class="w-full px-6 py-4 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors text-lg"
-                            >
-                                無料相談を申し込む
-                            </button>
-                        </div>
-                    </form>
+                <!-- 名 -->
+                <div class="form-group">
+                    <label for="firstName">
+                        名（ファーストネーム） <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="firstName"
+                        name="firstName" 
+                        placeholder="太郎" 
+                        required 
+                    />
                 </div>
-            </div>
-        </main>
+
+                <!-- メールアドレス -->
+                <div class="form-group">
+                    <label for="email">
+                        メールアドレス <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="email" 
+                        id="email"
+                        name="email" 
+                        placeholder="yamada@example.com" 
+                        required 
+                    />
+                </div>
+
+                <!-- 国籍 -->
+                <div class="form-group">
+                    <label for="nationality">
+                        国籍 <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="nationality"
+                        name="nationality" 
+                        placeholder="例：日本、中国、韓国、アメリカなど" 
+                        required
+                    />
+                </div>
+
+                <!-- 会社名 -->
+                <div class="form-group">
+                    <label for="company">
+                        会社名・事業名 <span class="required">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="company"
+                        name="company" 
+                        placeholder="株式会社サンプル" 
+                        required
+                    />
+                </div>
+
+                <!-- 事業内容 -->
+                <div class="form-group">
+                    <label for="businessContent">
+                        事業内容 <span class="required">*</span>
+                    </label>
+                    <textarea 
+                        id="businessContent"
+                        name="businessContent" 
+                        rows="6" 
+                        placeholder="事業内容について詳しくお書きください。例：ITコンサルティング、貿易業、飲食店経営、不動産投資、教育事業など" 
+                        required 
+                    ></textarea>
+                </div>
+
+                <!-- 送信ボタン -->
+                <div class="form-group">
+                    <button type="submit">
+                        無料相談を申し込む
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>

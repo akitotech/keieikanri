@@ -3,67 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>送信完了 - 神戸リージェンシー行政書士事務所</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>お申込み完了</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            color: #334155;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .success-card {
+            background: white;
+            border-radius: 16px;
+            padding: 48px 32px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .success-icon {
+            width: 64px;
+            height: 64px;
+            background-color: #10b981;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 32px;
+            color: white;
+        }
+        .success-title {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #1e293b;
+            margin-bottom: 16px;
+        }
+        .success-message {
+            font-size: 1.125rem;
+            color: #64748b;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+        .back-button:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-800">
-    <div class="min-h-screen">
-        <!-- Header -->
-        <header class="bg-white shadow-sm">
-            <div class="container mx-auto px-4 py-4">
-                <div class="flex items-center justify-between">
-                    <h1 class="text-xl font-bold text-slate-900">送信完了</h1>
-                    <a href="/" class="text-blue-600 hover:text-blue-800 font-medium">
-                        ← トップページに戻る
-                    </a>
-                </div>
-            </div>
-        </header>
-
-        <!-- Main Content -->
-        <main class="container mx-auto px-4 py-16">
-            <div class="max-w-2xl mx-auto">
-                <div class="text-center">
-                    <div class="w-16 h-16 mx-auto mb-6 bg-green-100 rounded-full flex items-center justify-center">
-                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                    </div>
-                    
-                    <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-4 text-slate-900">
-                        お問い合わせありがとうございます
-                    </h2>
-                    
-                    <p class="text-lg text-slate-600 mb-6">
-                        送信が完了しました。担当者より24時間以内にご連絡いたします。
-                    </p>
-                    
-                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
-                        <h3 class="font-semibold text-blue-900 mb-2">次のステップ</h3>
-                        <ul class="text-sm text-blue-800 text-left space-y-1">
-                            <li>• 担当者より24時間以内にメールまたはお電話にてご連絡いたします</li>
-                            <li>• ご相談内容に応じて、オンライン面談の日程を調整いたします</li>
-                            <li>• 必要に応じて、追加の資料をお送りいたします</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a 
-                            href="/" 
-                            class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
-                        >
-                            トップページに戻る
-                        </a>
-                        <a 
-                            href="/contact" 
-                            class="px-6 py-3 border border-slate-300 text-slate-700 font-semibold rounded-lg hover:bg-slate-50 transition-colors"
-                        >
-                            別の内容で問い合わせる
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </main>
+<body>
+    <div class="container">
+        <div class="success-card">
+            <div class="success-icon">✓</div>
+            <h1 class="success-title">お申込み完了</h1>
+            <p class="success-message">
+                無料相談のお申込みを受け付けました。<br>
+                担当者より24時間以内にご連絡いたします。<br>
+                お疲れ様でした。
+            </p>
+            <a href="/" class="back-button">トップページに戻る</a>
+        </div>
     </div>
 </body>
 </html>
