@@ -39,6 +39,7 @@ export default function ContactPage() {
             <form 
               name="contact" 
               method="POST" 
+              action="/contact"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               data-netlify-redirect="/contact/success"
