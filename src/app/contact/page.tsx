@@ -3,6 +3,16 @@ import Link from 'next/link';
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
+      {/* Netlify Forms検出用の隠しフォーム */}
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="contact" />
+        <input name="familyName" />
+        <input name="firstName" />
+        <input name="email" />
+        <input name="nationality" />
+        <input name="company" />
+        <textarea name="businessContent" />
+      </form>
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4">
@@ -36,15 +46,14 @@ export default function ContactPage() {
 
           {/* Contact Form */}
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <form 
-              name="contact" 
-              method="POST" 
-              action="/contact"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-              data-netlify-redirect="/contact/success"
-              className="grid gap-6"
-            >
+                        <form
+                          name="contact"
+                          method="POST"
+                          data-netlify="true"
+                          data-netlify-honeypot="bot-field"
+                          data-netlify-redirect="/contact/success"
+                          className="grid gap-6"
+                        >
               {/* Netlify Forms用の隠しフィールド */}
               <input type="hidden" name="form-name" value="contact" />
               <div style={{ display: 'none' }}>
