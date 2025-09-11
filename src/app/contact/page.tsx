@@ -1,41 +1,6 @@
 'use client';
 
-import { useState } from 'react';
-
 export default function ContactPage() {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
-
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
-
-    const form = event.target as HTMLFormElement;
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData as any).toString()
-      });
-
-      if (response.ok) {
-        setSubmitStatus('success');
-        // 成功ページにリダイレクト
-        window.location.href = '/contact/success';
-      } else {
-        setSubmitStatus('error');
-      }
-    } catch (error) {
-      console.error('Form submission error:', error);
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
       {/* Header */}
@@ -77,7 +42,6 @@ export default function ContactPage() {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               data-netlify-redirect="/contact/success"
-              onSubmit={handleSubmit}
               className="grid gap-6"
             >
               {/* Netlify Forms用の隠しフィールド */}
@@ -182,23 +146,10 @@ export default function ContactPage() {
               <div className="pt-4">
                 <button 
                   type="submit" 
-                  disabled={isSubmitting}
-                  className="w-full px-6 py-4 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors text-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full px-6 py-4 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors text-lg"
                 >
-                  {isSubmitting ? '送信中...' : '無料相談を申し込む'}
+                  無料相談を申し込む
                 </button>
-                
-                {/* Status Messages */}
-                {submitStatus === 'error' && (
-                  <div className="mt-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-xl">
-                    送信に失敗しました。もう一度お試しください。
-                  </div>
-                )}
-                {submitStatus === 'success' && (
-                  <div className="mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-xl">
-                    送信が完了しました！
-                  </div>
-                )}
               </div>
             </form>
           </div>
