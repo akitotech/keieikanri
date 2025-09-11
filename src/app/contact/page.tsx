@@ -39,7 +39,6 @@ export default function ContactPage() {
             <form 
               name="contact" 
               method="POST" 
-              data-netlify="true"
               className="grid gap-6"
             >
               
